@@ -1,0 +1,163 @@
+body {
+    background-color: #fffbf7;
+}
+
+.parrafo1 {
+    color: #46484c;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+h1 {
+    color: #025157;
+}
+
+.promocional {
+    color: #8b8b8bcc;
+    font-family: 'Playfair Display', serif;
+}
+
+.negritas {
+    color: black;
+}
+
+label {
+    color: black;
+}
+
+.barra-navegacion {
+    margin: 20px;
+    width: 75%;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+li {
+    vertical-align: top;
+    margin-right: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    width: 15%;
+    text-align: center;
+}
+
+button {
+    color: #fff;
+    background-color: #b43908;
+    width: 10%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: top;
+    justify-content: space-between;
+}
+
+.play-button,
+.stop-button,
+.rewind-button,
+.skip-button {
+    width: 40px;
+    height: 2rem;
+    background-color: rgb(225, 163, 62);
+    border: rgb(230, 100, 55);
+    margin: rgb(230, 100, 55);
+    padding: rgb(230, 100, 55);
+    content: rgb(230, 100, 55);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.75);
+    margin: 1rem;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    vertical-align: middle;
+    padding: .4em;
+    margin: .2em;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    margin: 100px auto;
+    
+}
+
+.texto {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.title {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.texto-inferior {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.parrafo {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.flecha {
+width: 60px;
+  margin-top: 10px;
+  margin-right: 180px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu {
+    color: #fff;
+    background-color: #b43908;
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+}

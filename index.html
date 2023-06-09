@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 3</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="flex-container">
+        <a href="/">
+            <img width="150" class="logo" src="assets/img/logo-sb-global.png">
+        </a>
+        <nav class="barra-navegacion">
+            <ul>
+                <a href="/mounstruos.html"><li>Mounstruos</li></a>
+                <a href="/armaduras.html"><li>Armaduras</li></a>
+                <a href="/objetos.html"><li>Objetos</li></a>
+                <a href="/habilidades.html"><li>Habilidades</li></a>
+            </ul>
+        </nav>
+        <button type="submit" class="menu">Submit</button>
+    </header>
+    <h1>API de Monster Hunter Sunbreak</h1>
+    <p class="parrafo1">
+        API publica de Monster Hunter Sunbreak, esta API se creo con el fin de
+        apoyar a los desarrolladores latinoamericanos que quieran crear proyectos
+        de este juego.
+    </p>
+    <p class="promocional">
+        Base de datos del juego
+    </p>
+    <p class="negritas">
+        ¿Te gustaría colaborar? manda una solicitud <strong>aquí.</strong>
+    </p>
+    <div class="container">
+        <article class="video-container">
+            <video width="640" height="480" id="my-video" poster="assets/img/portada.jpeg">
+                <source src="assets/video/mh.mp4" type="video/mp4">
+            </video>
+            <div>
+                <button onclick="playPause()" class="play-button">&#9658;/|| </button>
+                <button onclick="stop()" class="stop-button">&#9726; </button>
+                <button onclick="skip(-5)" class="rewind-button">&lt;&lt; </button>
+                <button onclick="skip(5)" class="skip-button">&gt;&gt; </button>
+            </div>
+            <img class="flecha"
+                src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png" />
+            <p style="margin-right: 180px;">Mira el trailer de lanzamiento.</p>
+        </article>
+        <article class="texto">
+            <h1 class="titulo">Monster Hunter Rise: Sunbreak</h1>
+            <p class="parrafo">El juego va a tener su ultima actualización mañana a las 7 am a ver que pex.<br>
+                Se espera que anuncien la variante de Malzeno y a ver si se ve algo más.
+            </p>
+            <p class="texto-inferior">Mantente atento a las redes oficiales de Capcom</p>
+        </article>
+    </div>
+
+    <script src="scripts/video.js"></script>
+
+    <p>¿Te gustaría suscribirte para obtener las ultimas actualizaciones del proyecto? Unete con solo tu email.</p>
+    <form>
+        <label>Correo electrónico</label>
+        <input type="email">
+        <button type="submit">Unirme.</button>
+    </form>
+    </div>
+</body>
+
+</html>
